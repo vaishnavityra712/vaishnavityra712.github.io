@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    line-height: 1.5;
+    overflow-x: hidden;
+    background-color: rgb(0, 0, 0);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+    text-decoration: none;
+}
+
+.imgc {
+    padding-top: 25px;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em;
+    height: 21em;
+    border-radius: 49%;
+    padding: 25px 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+.home {
+    color: azure;
+    display: block;
+    text-align: center;
+    font-family: 'Combo', cursive;
+}
+
+.social {
+    word-spacing: 30px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.social a {
+    text-decoration: none;
+}
+
+.fa:hover {
+    color: rgb(120, 143, 248);
+    cursor: pointer;
+}
+
+.about {
+    color: azure;
+    font-family: 'Combo', cursive;
+    text-align: center;
+    padding-top: 10em;
+}
+
+.about-list {
+    text-align: left;
+    list-style: none;
+    padding-top: 3em;
+    padding-left: 1em;
+    line-height: 2em;
+    display: inline-block;
+    width: 50%;
+}
+
+.title {
+    color: rgb(52, 108, 180);
+}
+
+.edu {
+    display: inline-block;
+    max-width: 350px;
+    padding: 10px;
+    /* word-break: break-all; */
+}
+
+.rang {
+    color: rgb(120, 143, 248);
+    font-size: 16px;
+}
+
+.inner {
+    padding-top: 20px;
+}
+
+.header {
+    /* padding-top: 10em; */
+    font-family: 'Combo', cursive;
+    text-align: center;
+    color: azure;
+    position: relative;
+}
+
+.header::after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+.skill-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 1rem;
+    padding: 1rem 80px;
+    font-size: 1.2rem;
+}
+
+.skill-box {
+    padding: 1rem;
+    color: #ddd;
+    /* cursor: pointer; */
+    /* font-family: 'Combo', cursive; */
+}
+
+.skill-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+
+.skill-title h4 {
+    color: #fff;
+    margin: 0.5rem;
+    font-family: 'Combo', cursive;
+}
+
+.skill-img {
+    width: 95px;
+    height: 95px;
+    position: relative;
+    border-radius: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-icon {
+    width: 65px;
+}
+
+.progress {
+    margin: 0.8rem 0;
+    border-radius: 10px;
+    height: 16px;
+    width: 100%;
+    background-color: rgb(182, 177, 177);
+    overflow: hidden;
+}
+
+.progress-bar {
+    display: block;
+    background-color: rgb(70, 124, 16);
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.progress-bar.w-85 {
+    width: 85%;
+}
+
+.progress-bar.w-75 {
+    width: 75%;
+}
+
+.progress-bar.w-80 {
+    width: 80%;
+}
+
+.progress-bar.w-65 {
+    width: 65%;
+}
+
+.progress-bar.w-90 {
+    width: 90%;
+}
+
+#contact span {
+    font-size: 21px;
+}
+
+#contactm {
+    font-size: 26px;
+}
